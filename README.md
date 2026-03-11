@@ -56,20 +56,35 @@ The application is containerized using **Docker** for easier setup and deploymen
 
 # 🏗️ Project Structure
 
+```bash
 inventory-management-system
 │
 ├── client # Frontend (React + Vite)
-│ ├── src
 │ ├── public
+│ ├── src
+│ │ ├── components
+│ │ ├── context
+│ │ ├── pages
+│ │ ├── types
+│ │ ├── utils
 │ └── package.json
+│ └── index.html
 │
 ├── server # Backend (Node + Express)
 │ ├── src
+│ │ ├── config
 │ │ ├── controllers
+│ │ ├── middlewares
 │ │ ├── models
 │ │ ├── routes
+│ │ ├── types
+│ │ ├── utils
+│ │ ├── seed.ts
 │ │ └── index.ts
 │ └── package.json
+│ └── .env
 │
 ├── docker-compose.yml
 └── README.md
+```
+
