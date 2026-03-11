@@ -55,3 +55,21 @@ The application is containerized using **Docker** for easier setup and deploymen
 ---
 
 # 🏗️ Project Structure
+
+inventory-management-system
+│
+├── client # Frontend (React + Vite)
+│ ├── src
+│ ├── public
+│ └── package.json
+│
+├── server # Backend (Node + Express)
+│ ├── src
+│ │ ├── controllers
+│ │ ├── models
+│ │ ├── routes
+│ │ └── index.ts
+│ └── package.json
+│
+├── docker-compose.yml
+└── README.md
