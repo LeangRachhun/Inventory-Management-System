@@ -88,3 +88,23 @@ inventory-management-system
 └── README.md
 ```
 
+# 🔑 Environment Variables
+
+Create .env file in the server folder.
+
+```bash
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/inventoryDB
+JWT_SECRET=your_secret_key
+```
+
+#📡 API Example
+
+Example API endpoint:
+
+```bash
+GET /api/products
+POST /api/products
+PUT /api/products/:id
+DELETE /api/products/:id
+```
