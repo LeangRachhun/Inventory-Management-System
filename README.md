@@ -88,6 +88,8 @@ inventory-management-system
 └── README.md
 ```
 
+---
+
 # 🔑 Environment Variables
 
 Create .env file in the server folder.
@@ -98,7 +100,9 @@ MONGO_URI=mongodb://localhost:27017/inventoryDB
 JWT_SECRET=your_secret_key
 ```
 
-#📡 API Example
+---
+
+# 📡 API Example
 
 Example API endpoint:
 
@@ -108,3 +112,25 @@ POST /api/products
 PUT /api/products/:id
 DELETE /api/products/:id
 ```
+
+---
+
+# 📸 Project Preview
+
+Form Login:
+
+![Login form](https://res.cloudinary.com/db5nsembw/image/upload/v1773303198/Screenshot_2026-03-12_014622_qvopvr.png)
+
+Admin Role:
+
+![Admin 1](https://res.cloudinary.com/db5nsembw/image/upload/v1773255903/Screenshot_2026-03-12_014718_xu62l8.png)
+![Admin 2](https://res.cloudinary.com/db5nsembw/image/upload/v1773303195/Screenshot_2026-03-12_014731_ktopkm.png)
+![Admin 3](https://res.cloudinary.com/db5nsembw/image/upload/v1773303195/Screenshot_2026-03-12_014744_vcmkzq.png)
+![Admin 4](https://res.cloudinary.com/db5nsembw/image/upload/v1773303195/Screenshot_2026-03-12_014824_jlcnrd.png)
+
+Employee Role:
+
+![Employee 1](https://res.cloudinary.com/db5nsembw/image/upload/v1773303196/Screenshot_2026-03-12_014936_k9cibh.png)
+![Employee 2](https://res.cloudinary.com/db5nsembw/image/upload/v1773303195/Screenshot_2026-03-12_014945_tmeedw.png)
+
+---

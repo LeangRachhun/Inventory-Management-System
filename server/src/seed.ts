@@ -50,10 +50,14 @@ const orderSeed = async () => {
       });
     }
     await orderMedel.insertMany(orders);
+<<<<<<< HEAD
     console.log("Successfully seeded 300 orders");
+=======
+    console.log("Successfully seeded 300 orders (2020 → now)");
+>>>>>>> e43bd0d5c54e670b86b03ff05c8925286c01b57c
     process.exit();
   } catch (error) {
-    console.error("❌ Seeding error:", error);
+    console.error("Seeding error:", error);
     process.exit(1);
   }
 };
