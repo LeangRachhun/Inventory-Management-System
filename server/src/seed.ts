@@ -50,7 +50,7 @@ const orderSeed = async () => {
       });
     }
     await orderMedel.insertMany(orders);
-    console.log("🎉 Successfully seeded 300 orders (2020 → now)");
+    console.log("Successfully seeded 300 orders");
     process.exit();
   } catch (error) {
     console.error("❌ Seeding error:", error);
